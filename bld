@@ -1,2 +1,2 @@
 #!/bin/bash
-em++ main.cpp -s USE_SDL=2 -s ALLOW_MEMORY_GROWTH=1 -s USE_SDL_TTF=2 --preload-file assets -std=c++11 -Os -o index.html
+g++ main.cpp -lSDL2 -lSDL2_ttf -o snake
